@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(49, 55, 85);
+  padding-top: 20px;;
+}
+
+#app {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.sidebar-details > summary {
+  display: flex;
+  justify-content: space-between;
+  /* padding: top/bottom left/right */
+  padding: 5px 10px;
+}
+
+#display {
+  background-color: black;
+}
+
+details > summary {
+  list-style: none;
+  padding-left: 20px;
+  background-color: lightgray;
+}
+
+/* details summary::-webkit-details-marker {
+  display:none;
+} */
