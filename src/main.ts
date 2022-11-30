@@ -13,6 +13,16 @@ import VectorDisplay from "./classes/VectorDisplay";
 import Prisma from "./prisma";
 import { Types, DRP, Calculation } from "./types/types";
 
+// TODO:
+//  [] add easy and advanced mode
+//  [] clear default values
+//  [] save and load settings
+//    [] update LoadData class to work with params
+//        eg. LoadData.load('settings')
+//  [] add light/dark mode
+//  [] make sidebar hidable.
+//  cleanup main.ts
+
 let p1 = new Prisma(2.25, 95);
 let p2 = new Prisma(1.175, 25);
 
